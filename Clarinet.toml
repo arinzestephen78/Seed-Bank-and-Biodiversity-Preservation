@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/reputation-system.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.seed-nft]
+path = 'contracts/seed-nft.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
